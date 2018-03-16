@@ -6,7 +6,7 @@
 void another_func(int n) {
     if (n == 1) {
         printf("See you...\n");
-        pthread_exit(NULL);
+        exit(0);
     }
 }
 

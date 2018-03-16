@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 void* thread_func(void* arg) {
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < 5; ++i) {
         printf("I'm thread_func: %d\n", i);
         sleep(1);
     }
@@ -19,7 +19,7 @@ int main()
         exit(1);
     }
 
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < 3; ++i) {
         printf("I'm main: %d\n", i);
         sleep(1);
     }

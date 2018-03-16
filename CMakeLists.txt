@@ -3,3 +3,4 @@ project(pthreads)
 
 add_subdirectory(first_thread)
 add_subdirectory(exit_thread)
+add_subdirectory(wait_thread)

@@ -6,6 +6,7 @@
       <config projectName="pthreads" targetName="stack_heap" />
       <config projectName="pthreads" targetName="exit_thread" />
       <config projectName="pthreads" targetName="retval_thread" />
+      <config projectName="pthreads" targetName="dynamic_alloc" />
       <config projectName="pthreads" targetName="wait_thread" />
     </generated>
   </component>
@@ -16,8 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9147d8b9-628d-45f5-9523-61325ae4fbe3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/stack_heap/CMakeLists.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/stack_heap/main.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_alloc/CMakeLists.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_alloc/main.c" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
@@ -34,22 +35,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack_heap/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/dynamic_alloc/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stack_heap/main.c">
+        <entry file="file://$PROJECT_DIR$/dynamic_alloc/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="1050">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +59,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -82,8 +83,10 @@
         <option value="$PROJECT_DIR$/retval_thread/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/retval_thread/main.c" />
         <option value="$PROJECT_DIR$/stack_heap/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/stack_heap/main.c" />
+        <option value="$PROJECT_DIR$/dynamic_alloc/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/dynamic_alloc/main.c" />
       </list>
     </option>
   </component>
@@ -140,6 +143,11 @@
             <path>
               <item name="pthreads" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="pthreads" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_alloc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pthreads" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="pthreads" type="462c0819:PsiDirectoryNode" />
               <item name="first_thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,6 +168,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dynamic_alloc" />
       <recent name="$PROJECT_DIR$/stack_heap" />
       <recent name="$PROJECT_DIR$/retval_thread" />
       <recent name="$PROJECT_DIR$/wait_thread" />
@@ -178,8 +187,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.run stack_heap">
+  <component name="RunManager" selected="Application.run dynamic_alloc">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug-Clang" RUN_TARGET_PROJECT_NAME="pthreads" RUN_TARGET_NAME="stack_heap" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="run dynamic_alloc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pthreads" TARGET_NAME="dynamic_alloc" CONFIG_NAME="Debug-Clang" RUN_TARGET_PROJECT_NAME="pthreads" RUN_TARGET_NAME="dynamic_alloc">
       <envs />
     </configuration>
     <configuration name="run exit_thread" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pthreads" TARGET_NAME="exit_thread" CONFIG_NAME="Debug-Clang" RUN_TARGET_PROJECT_NAME="pthreads" RUN_TARGET_NAME="stack_heap">
@@ -197,13 +209,14 @@
     <configuration name="run wait_thread" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="6" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pthreads" TARGET_NAME="wait_thread" CONFIG_NAME="Debug-Clang" RUN_TARGET_PROJECT_NAME="pthreads" RUN_TARGET_NAME="stack_heap">
       <envs />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.run exit_thread" />
       <item index="2" class="java.lang.String" itemvalue="Application.run first_thread" />
       <item index="3" class="java.lang.String" itemvalue="Application.run wait_thread" />
       <item index="4" class="java.lang.String" itemvalue="Application.run retval_thread" />
       <item index="5" class="java.lang.String" itemvalue="Application.run stack_heap" />
+      <item index="6" class="java.lang.String" itemvalue="Application.run dynamic_alloc" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -220,12 +233,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521194422396</updated>
       <workItem from="1521194423603" duration="3107000" />
-      <workItem from="1521211699310" duration="6922000" />
+      <workItem from="1521211699310" duration="8981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10029000" />
+    <option name="totallyTimeSpent" value="12088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-2" width="2562" height="1443" extended-state="6" />
@@ -409,14 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/x86_64-linux-gnu/bits/pthreadtypes.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3930">
@@ -438,7 +443,33 @@
         <state relative-caret-position="870">
           <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic_alloc/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic_alloc/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
